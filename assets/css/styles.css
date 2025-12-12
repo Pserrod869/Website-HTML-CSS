@@ -229,7 +229,41 @@ img {
 
 
 /*=============== HOME ===============*/
+.home__container{
+  padding-block: 2rem 3rem;
+  row-gap: 7rem;
+}
 
+.home__data{
+  position: relative;
+  text-align: center;
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+}
+
+.home__description{
+  margin-block: 1rem 2rem;
+}
+
+.home__sticker-1,
+.home__sticker-2{
+  width: 40px;
+  position: absolute;
+  opacity: .7;
+}
+
+.home__sticker-1{
+  right: .75rem;
+  bottom: 2rem;
+  rotate: 30deg;
+}
+
+.home__sticker-2{
+  left: 2.5rem;
+  bottom: -4.5rem;
+}
 
 /*=============== BUTTON ===============*/
 
