@@ -266,7 +266,21 @@ img {
 }
 
 /*=============== BUTTON ===============*/
+.button{
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  border-radius: 4rem;
+  box-shadow: 0 8px 24px hsla(353, 100%, 40%, .4);
+  transition: brackground-color .4s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+}
 
 /*=============== ABOUT ===============*/
 
