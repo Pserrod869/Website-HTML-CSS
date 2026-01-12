@@ -666,11 +666,62 @@ img {
 }
 
 .footer__pay-img{
-  
+  width: 30px;
+  filter: var(--shadow-small-img);
 }
 
-/*=============== SCROLL BAR ===============*/
+.footer__form{
+  padding: .5rem;
+  background-color: var(--container-color);
+  box-shadow: 0 4 px 16px hsla(353, 100%, 8%, .1);
+  border-radius: 4rem;
+}
 
+.footer__input{
+  width: 100%;
+  background: transparent;
+  padding-left: .75rem;
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer__input::placeholder{
+  color: var(--text-color);
+}
+
+.footer__button{
+  padding-block: .75rem;
+  cursor: pointer;
+}
+
+.footer__policy{
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.footer__copy{
+  display:block;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+
+
+/*=============== SCROLL BAR ===============*/
+::-webkit_scrollbar{
+  width: .6rem;
+  background-color: hsl(24, 32%, 75%);
+}
+
+::-webkit_scrollbar-thumb{
+  background-color: hsl(24, 32%, 65%);
+}
+
+::-webkit_scrollbar-thumb:hover{
+  background-color: hsl(24, 32%, 55%);
+}
 
 /*=============== SCROLL UP ===============*/
 
